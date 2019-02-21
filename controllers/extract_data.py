@@ -14,10 +14,10 @@ from service.abby_data_extractor import extract_to_docx
 import subprocess
 
 
-from lib.mapping_list import keywords
+from service.mapping_list import keywords
 
-from lib.model_pdf_data import ModelPdfData
-from lib.update_excel   import ExcelWriter
+from service.model_pdf_data import ModelPdfData
+from service.update_excel   import ExcelWriter
 import uuid
 
 class ExtractData(Resource):
